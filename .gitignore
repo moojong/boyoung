@@ -1,0 +1,19 @@
+# 저장소에는 코드·노트북·README 만 올린다. 데이터·문서·자격증명·캐시는 제외.
+/*
+!/.gitignore
+!/.gitattributes
+!/.env.example
+!/README.md
+!/requirements.txt
+!/pipeline/
+
+/pipeline/*
+!/pipeline/*.py
+!/pipeline/*.ipynb
+/pipeline/app.py
+/pipeline/to_docx.py
+
+__pycache__/
+.ipynb_checkpoints/
+.omc/
+.env

@@ -1,0 +1,2 @@
+# 노트북은 출력을 지운 상태로 저장한다 (DB 데이터가 출력에 들어 있다). 필터 정의는 README 참고.
+*.ipynb filter=nbstrip
